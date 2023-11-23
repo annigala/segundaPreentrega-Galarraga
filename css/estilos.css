@@ -43,12 +43,7 @@ header{
 }
 
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: -10px;
-}
+
 
 
 .logoNav{
@@ -365,7 +360,6 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'bloques carrusel';
-    background-color:#DFDFDFff;
     margin: 0;
     font-family: 'Gruppo', sans-serif;
     height: 800px;
@@ -430,6 +424,10 @@ footer{
 
 /******************* PAGINA TRES: FLOTA *********************/
 
+.mainFlota{ 
+    font-family: 'Gruppo', sans-serif;
+}
+
 .titutloFlota{
     margin-top: 80px;
     font-size: 2.3em;
@@ -440,9 +438,11 @@ footer{
 .contenedorFlota{
     margin-top: 150px;
     margin-left: 250px;
+    margin-bottom: 90px;
     background-color:rgba(28, 121, 93, 0.63);
     width: 1400px;
-    height: 400px;
+    height: 500px;
+    color: #FCFCFC;
 }
 
 .contenedorFlotaUno{
@@ -634,16 +634,12 @@ footer{
     padding: 20px;
 }
 
-.footerFlota{
-    border-top: 1px solid white;
-    margin-top: 30px;
-    padding: 40px;
-    height: 30px;
-    font-size: 1.2em;
-}
-
 /* CONTACTO */
 
+.mainContacto{   
+    font-family: 'Gruppo', sans-serif;
+    font-size: 1em;
+}
 
 .tituloContacto{
     text-align: center;
@@ -674,6 +670,11 @@ footer{
     width: 150px;
     height: 30px;
     font-size: 0.6em;
+}
+
+#country{
+    text-align: center;
+    font-size: 0.7em;
 }
 
 
